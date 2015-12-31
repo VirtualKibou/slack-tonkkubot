@@ -184,7 +184,7 @@ bot.on('message', function(data){
 				break;
 			case "welcome":
 				if(command[1] != null){
-					oBot.postMessage('C0493QJEJ', 'Hello and welcome to the team, '+command[1]+'! :simple_smile:\nPlease dm <@U0493QJEC> and fill this form: http://goo.gl/forms/w51NT8BDCw', params);
+					oBot.postMessage('C0493QJEJ', 'Hello and welcome to the team, '+command[1]+'! :simple_smile:\nPlease dm <@U0493QJEC> and fill this form: (form)', params);
 				}else{
 					oBot.postMessage(data.channel, "Missing argument: user", params);
 				}
@@ -197,5 +197,5 @@ bot.on('message', function(data){
 });
 
 bot.on('team_join', function (data) {
-    oBot.postMessage('C0493QJEJ', 'Hello and welcome to the team, <@'+data.user.id+'>! :simple_smile:\nPlease dm <@U0493QJEC> and fill this form: http://goo.gl/forms/w51NT8BDCw', params);
+    oBot.postMessage('C0493QJEJ', 'Hello and welcome to the team, <@'+data.user.id+'>! :simple_smile:\nPlease dm <@U0493QJEC> and fill this form: (form)', params);
 });
