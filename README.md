@@ -1,6 +1,6 @@
 # slack-tonkkubot
-A bot in node.js for monstercat family hub slack team
-This is the source code for tonkkubot. If you're not in mfh's slack, you shouldn't be here :P
+A bot in node.js for monstercat family hub slack team    
+This is the source code for tonkkubot. If you are not in mfh's slack you might be missing out on stuff :P
 
 ## Requirements
 This bot needs 2 APIs. Don't ask why. It's because the "secAPI" was harder to use for getting data, but I still liked the sending messages in that one better. The other api is for getting the data.
@@ -43,6 +43,6 @@ Events are nice
 When someone joins the team, they will be welcomed and told to dm @ry and fill a form. Yay!
 
 ## Other stuff
-Well, you are free to use this code, I don't care.    
+Well, you are free to use this code, I don't care, but you could give me some credit.    
 You might want to look at the podcast code and change the time stuff.    
 Can I go now?
